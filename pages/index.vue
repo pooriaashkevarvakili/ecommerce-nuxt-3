@@ -1,19 +1,47 @@
 <template>
     <div>
-        <div class="">
-            <Tabwrapper>
-                <Tab title="tab1">hello from tab1</Tab>
-                <Tab title="tab2">hello from tab2</Tab>
-                <Tab title="tab3">hello from tab3</Tab>
-                <Tab title="tab4">hello from tab4</Tab>
-            </Tabwrapper>
+        <div class="flex justify-between   2xl:px-32 xl:px-32 lg:px-10 px-8   mt-10">
+            <div>
+                <Tabwrapper class="cursor-pointer">
+                    <Tab title="همه">
+                        <div class="flex flex-wrap">
+                            <All />
+                        </div>
+                    </Tab>
+                    <Tab title="زن">
+                        <Women />
+                    </Tab>
+                    <Tab title="مرد">
+                        <Woman />
+                    </Tab>
+                    <Tab title="بچه ها">
+                        <Children />
+                    </Tab>
+                    <Tab title="تجهیزات جانبی ">
+                        <Kid />
+                    </Tab>
+                    <Tab title=" لوازم آرایشی">
+                        <Accessories />
+                    </Tab>
+                </Tabwrapper>
+            </div>
+            <div class="hidden 2xl:block xl:block lg:block md:hidden">
+                محصولات
+            </div>
         </div>
+        <Product />
     </div>
 </template>
-
 <script setup>
+import All from "./Tab/All.vue"
 import Tab from "./Tab.vue"
 import Tabwrapper from "./Tabwrapper.vue"
+import Women from "./Tab/Women.vue"
+import Woman from "./Tab/Woman.vue"
+import Children from "./Tab/Children.vue"
+import Kid from "./Tab/Kid.vue"
+import Accessories from "./Tab/Accessories.vue"
+import Product from "./Tab/Product.vue"
 </script>
 
 <style>

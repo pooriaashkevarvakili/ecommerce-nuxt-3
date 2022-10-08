@@ -12,16 +12,12 @@ module.exports = {
   },
   theme: {
     extend: {
-      width: {
-        '650': "40rem",
-        '800': ' 50rem',
-        '700': '43rem',
-        '900': '56rem',
-        '1600': '100rem'
+      spacing: {
+        '56px': '3.5rem',
       },
 
       backgroundImage: {
-        'categoryFive': "url('category-7.jpg')",
+        'assetbistoyek': "url('asset21.jpeg')",
         'categoryTwo': "url('category-2.jpg.webp')",
         'categoryThree': "url('category-3.jpg.webp')",
         'categoryFour': "url('category-4.jpg.webp')",

@@ -61,7 +61,7 @@
             </div>
             <!-- Page content here -->
             <NuxtPage />
-            <div class="mt-2">
+            <div class="mt-5">
                 <Footer />
             </div>
 

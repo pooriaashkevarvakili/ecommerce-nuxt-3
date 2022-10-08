@@ -8,22 +8,13 @@
         <slot />
     </div>
 </template>
-
-<script>
-import { ref, provide } from "vue"
-export default {
-    setup(props, { slots }) {
-        const tabTitles = ref(slots.default().map((tab) => tab.props.title))
-        const selectedTitle = ref(tabTitles.value[0])
-        provide("selectedTitle", selectedTitle)
-        return {
-            selectedTitle,
-            tabTitles
-        }
-    }
-}
+<script setup>
+import { ref, provide, useSlots } from "vue"
+const slots = useSlots()
+const tabTitles = ref(slots.default().map((tab) => tab.props.title))
+const selectedTitle = ref(tabTitles.value[0])
+provide("selectedTitle", selectedTitle)
 </script>
-
 <style>
 
 </style>
