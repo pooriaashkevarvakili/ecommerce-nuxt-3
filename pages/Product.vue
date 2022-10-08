@@ -12,8 +12,8 @@
                 <div class="flex items-center flex-wrap">
                     <img class="rounded-lg" :src="item.img" alt="">
                     <div>
-                        <div class="ml-2">{{item.name}}</div>
-                        <div class="ml-2">{{item.price}}</div>
+                        <div class="ml-2 iran-sans">{{item.name}}</div>
+                        <div class="ml-2 iran-sans">{{item.price}}</div>
                     </div>
                 </div>
             </div>
@@ -24,72 +24,72 @@
 const productName = ref([
     {
         id: 1,
-        name: 'HOT TREND'
+        name: 'روند داغ'
     },
     {
         id: 2,
-        name: '  Best Saller'
+        name: 'بهترین فروشنده'
     },
     {
         id: 3,
-        name: 'FEATURE'
+        name: 'آینده'
     }
 ])
 const product = ref([
     {
         id: 1,
         img: 'asset1.webp',
-        name: 'Chain bucket bag',
+        name: 'کیف سطلی',
         price: '59/000'
     },
     {
         id: 2,
         img: 'asset4.webp',
-        name: 'Cotton T-Shirt',
+        name: 'تی شرت کتون',
         price: '59/000'
 
     },
     {
         id: 3,
         img: 'asset7.webp',
-        name: 'Bow wrap skirt',
+        name: 'دامن پاپیونی',
         price: '59/000'
 
     },
     {
         id: 4,
         img: 'asset2.webp',
-        name: 'Pendant earrings',
+        name: 'گوشواره آویز',
         price: '59/000'
     },
     {
         id: 5,
         img: 'asset5.webp',
-        name: 'Zip-pockets',
+        name: 'جیب های زیپ دار',
         price: '59/000'
     },
     {
         id: 6,
         img: 'asset8.webp',
-        name: 'Metallic earrings',
+        name: 'گوشواره فلزی',
         price: '59/000'
     },
     {
         id: 7,
         img: 'asset3.webp',
-        name: 'otton T-Shirt',
+        name: 'تی شرت کتون',
         price: '59/000'
     },
     {
         id: 8,
         img: 'asset6.webp',
-        name: 'Round leather bag',
+        name: 'کیف چرمی گرد',
         price: '59/000'
     },
     {
         id: 9,
         img: 'asset9.webp',
-        name: 'Flap cross-body bag',
+        name: 'کیف کراس بادی فلپ',
         price: '59/000'
 
     }

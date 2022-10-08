@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div v-show="title==selectedTitle">
+        <div class="iran-sans" v-show="title==selectedTitle">
             <slot />
         </div>
     </div>

@@ -5,12 +5,12 @@
         <footer class="footer p-10 bg-white text-base-content mt-2">
             <div>
                 <img class="2xl:ml-20 xl:ml-20 lg:ml-10 md:ml-10" src="ashion.webp" alt="">
-                <div dir="rtl">
+                <div class="iran-sans" dir="rtl">
                     لورم ایپسوم متن ساختگی
-                    <div>
+                    <div class="iran-sans">
                         با تولید سادگی نامفهوم از صنعت چاپ
                     </div>
-                    <div>
+                    <div class="iran-sans">
                         و با استفاده از طراحان گرافیک است
 
                     </div>
@@ -24,25 +24,25 @@
                 </div>
             </div>
             <div>
-                <span>لینک های فوری</span>
-                <a>برندها</a>
-                <a>طراحی ها</a>
-                <a>مارکت ها</a>
-                <a>تبلیغات</a>
+                <span class="iran-sans">لینک های فوری</span>
+                <a class="iran-sans">برندها</a>
+                <a class="iran-sans">طراحی ها</a>
+                <a class="iran-sans">مارکت ها</a>
+                <a class="iran-sans">تبلیغات</a>
             </div>
             <div>
-                <span>حساب</span>
-                <a>حساب من</a>
-                <a>پیگیری سفارشات</a>
-                <a>بررسی</a>
-                <a>لیست علاقه مندیها</a>
+                <span class="iran-sans">حساب</span>
+                <a class="iran-sans">حساب من</a>
+                <a class="iran-sans">پیگیری سفارشات</a>
+                <a class="iran-sans">بررسی</a>
+                <a class="iran-sans">لیست علاقه مندیها</a>
 
 
 
             </div>
 
             <div>
-                <span>خبرها</span>
+                <span class="iran-sans">خبرها</span>
                 <div class="flex">
                     <input type="text" placeholder="Type here"
                         class="input input-bordered input-error w-full max-w-xs" />
@@ -52,8 +52,8 @@
             </div>
 
         </footer>
-        <div class="text-center">
-            Copyright © 2022 All rights reserved | This template is made with by Colorlib
+        <div class="text-center iran-sans">
+            Copyright © 2022
         </div>
     </div>
 </template>
