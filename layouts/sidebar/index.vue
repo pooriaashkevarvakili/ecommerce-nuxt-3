@@ -21,9 +21,8 @@
 
                     <div class="flex space-x-5 ">
                         <nuxt-link to="/" class="iran-sans">خانه</nuxt-link>
-                        <a class="iran-sans">فروشگاه</a>
-                        <a class="iran-sans">جزئیات محصول</a>
-                        <a class="iran-sans">بلاگ </a>
+                        <nuxt-link to="/ecommerce" class="iran-sans">فروشگاه</nuxt-link>
+                        <nuxt-link to="/blog" class="iran-sans"> بلاگ</nuxt-link>
                         <nuxt-link to="/contact" class="iran-sans">تماس باما </nuxt-link>
                         <nuxt-link class="iran-sans" to="/login"> ثبت نام </nuxt-link>
                     </div>
@@ -108,7 +107,8 @@
                     </a>
                 </div>
                 <div class="mt-2">
-                    <li><a class="">
+                    <li>
+                        <nuxt-link to="/" class="iran-sans">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="w-6 h-6">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -116,41 +116,39 @@
                             </svg>
                             خانه
 
-                        </a></li>
+                        </nuxt-link>
+                    </li>
                     <li class="">
-                        <a>
+                        <nuxt-link to="/ecommerce" class="iran-sans">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="w-6 h-6">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
                             </svg>
                             فروشگاه
-                        </a>
+                        </nuxt-link>
                     </li>
-                    <li><a>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                            </svg>
-                            جزئیات محصول
-                        </a></li>
-                    <li><a>
+
+                    <li>
+                        <nuxt-link to="/blog" class="iran-sans">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="w-6 h-6">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
                             </svg>
                             بلاگ
-                        </a></li>
-                    <li><a>
+                        </nuxt-link>
+                    </li>
+                    <li>
+                        <nuxt-link to="/contact" class="iran-sans">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="w-6 h-6">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 011.037-.443 48.282 48.282 0 005.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
                             </svg>
                             تماس باما
-                        </a></li>
+                        </nuxt-link>
+                    </li>
                     <li>
 
 

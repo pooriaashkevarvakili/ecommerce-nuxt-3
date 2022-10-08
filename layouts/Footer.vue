@@ -1,7 +1,5 @@
 <template>
     <div>
-
-
         <footer class="footer p-10 bg-white text-base-content mt-2">
             <div>
                 <img class="2xl:ml-20 xl:ml-20 lg:ml-10 md:ml-10" src="ashion.webp" alt="">
@@ -25,22 +23,12 @@
             </div>
             <div>
                 <span class="iran-sans">لینک های فوری</span>
-                <a class="iran-sans">برندها</a>
-                <a class="iran-sans">طراحی ها</a>
-                <a class="iran-sans">مارکت ها</a>
-                <a class="iran-sans">تبلیغات</a>
+                <nuxt-link to="/" class="iran-sans">خانه</nuxt-link>
+                <nuxt-link to="/ecommerce" class="iran-sans"> فروشگاه</nuxt-link>
+                <nuxt-link to="/blog" class="iran-sans">بلاگ </nuxt-link>
+                <nuxt-link to="/contact" class="iran-sans">تماس با ما</nuxt-link>
+                <nuxt-link to="/login" class="iran-sans"> ثبت نام</nuxt-link>
             </div>
-            <div>
-                <span class="iran-sans">حساب</span>
-                <a class="iran-sans">حساب من</a>
-                <a class="iran-sans">پیگیری سفارشات</a>
-                <a class="iran-sans">بررسی</a>
-                <a class="iran-sans">لیست علاقه مندیها</a>
-
-
-
-            </div>
-
             <div>
                 <span class="iran-sans">خبرها</span>
                 <div class="flex">
