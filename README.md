@@ -40,3 +40,7 @@ npm run preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+
+in project website vuejs-nuxt 3 build
+
+https://public-iota-wheat.vercel.app/
