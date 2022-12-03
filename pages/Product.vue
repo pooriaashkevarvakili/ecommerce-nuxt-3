@@ -1,19 +1,19 @@
 <template>
     <div>
         <div
-            class="mt-3 2xl:px-32 xl:px-32 lg:px-10 md:px-10 px-2 grid 2xl:grid-cols-3 grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3  ">
+            class="mt-3 md:ml-36 sm:ml-72 4xl:ml-60 5xl:ml-44 xs:ml-40 2xl:px-32 xl:px-32 lg:px-10 md:px-10 px-2 grid 2xl:grid-cols-3 grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3  ">
             <div v-for="products in productName" :key="products.id">
-                {{products.name}}
+                {{ products.name }}
             </div>
         </div>
         <div
-            class="mt-3 2xl:px-32 space-y-2 xl:px-32 lg:px-10 md:px-10 px-2 grid 2xl:grid-cols-3 grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 ">
+            class="mt-3 md:ml-28 sm:ml-60 4xl:ml-56 5xl:ml-40 xs:ml-28 2xl:px-32 space-y-2 xl:px-32 lg:px-10 md:px-10 px-2 grid 2xl:grid-cols-3 grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 ">
             <div v-for="item in product" :key="item.id">
                 <div class="flex items-center flex-wrap">
                     <img class="rounded-lg" :src="item.img" alt="">
                     <div>
-                        <div class="ml-2 iran-sans">{{item.name}}</div>
-                        <div class="ml-2 iran-sans">{{item.price}}</div>
+                        <div class="ml-2 iran-sans">{{ item.name }}</div>
+                        <div class="ml-2 iran-sans">{{ item.price }}</div>
                     </div>
                 </div>
             </div>

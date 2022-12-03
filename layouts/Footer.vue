@@ -2,8 +2,9 @@
     <div>
         <footer class="footer p-10 bg-white text-base-content mt-2">
             <div>
-                <img class="2xl:ml-20 xl:ml-20 lg:ml-10 md:ml-10" src="ashion.webp" alt="">
-                <div class="iran-sans" dir="rtl">
+                <img class="2xl:ml-20 2xl:block xl:block lg:block  xl:ml-20 lg:ml-10 md:hidden 4xl:hidden 5xl:hidden xs:hidden sm:hidden"
+                    src="ashion.webp" alt="">
+                <div class="iran-sans md:hidden sm:hidden 4xl:hidden 5xl:hidden  xs:hidden" dir="rtl">
                     لورم ایپسوم متن ساختگی
                     <div class="iran-sans">
                         با تولید سادگی نامفهوم از صنعت چاپ
@@ -13,15 +14,9 @@
 
                     </div>
                 </div>
-                <div class="flex">
-                    <img src="master.png" alt="">
-                    <img class="ml-2" src="visa.webp" alt="">
-                    <img class="ml-2" src="discover.webp" alt="">
-                    <img src="paypal.webp" class="ml-2" alt="">
-                    <img src="circus.webp" class="ml-2" alt="">
-                </div>
+
             </div>
-            <div>
+            <div class="md:ml-10">
                 <span class="iran-sans">لینک های فوری</span>
                 <nuxt-link to="/" class="iran-sans">خانه</nuxt-link>
                 <nuxt-link to="/ecommerce" class="iran-sans"> فروشگاه</nuxt-link>
@@ -30,13 +25,22 @@
                 <nuxt-link to="/login" class="iran-sans"> ثبت نام</nuxt-link>
             </div>
             <div>
-                <span class="iran-sans">خبرها</span>
-                <div class="flex">
+
+                <div
+                    class="flex  md:-mr-10 md:flex 2xl:flex xl:flex  lg:flex sm:hidden 4xl:hidden 5xl:hidden xs:hidden">
                     <input type="text" placeholder="Type here"
                         class="input input-bordered input-error w-full max-w-xs" />
                     <button class="bg-red-400 px-5 py-3 rounded-xl ml-2 text-white">subscribe</button>
                 </div>
-
+                <div class="flex">
+                    <img src="master.png" alt="">
+                    <img class="ml-2" src="visa.webp" alt="">
+                    <img class="ml-2" src="discover.webp" alt="">
+                    <img src="paypal.webp" class="ml-2" alt="">
+                    <img src="circus.webp" class="ml-2" alt="">
+                </div>
+                <img class="2xl:hidden xl:hidden lg:hidden md:block 4xl:block 5xl:block xs:block sm:block"
+                    src="ashion.webp" alt="">
             </div>
 
         </footer>

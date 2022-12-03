@@ -14,13 +14,13 @@
                     <Tab class="iran-sans" title="مرد">
                         <Woman />
                     </Tab>
-                    <Tab class="iran-sans" title="بچه ها">
+                    <Tab class="iran-sans" title="بچه">
                         <Children />
                     </Tab>
-                    <Tab class="iran-sans" title="تجهیزات جانبی ">
+                    <Tab class="iran-sans" title="تجهیزات">
                         <Kid />
                     </Tab>
-                    <Tab class="iran-sans" title=" لوازم آرایشی">
+                    <Tab class="iran-sans" title="آرایشی">
                         <Accessories />
                     </Tab>
                 </Tabwrapper>

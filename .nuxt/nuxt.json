@@ -1,9 +1,9 @@
 {
-  "_hash": "xufoR3BC5S",
+  "_hash": "60jNfBrWH5",
   "project": {
-    "rootDir": "D:/project-nuxt3"
+    "rootDir": "D:/ecommerce-nuxt-3"
   },
   "versions": {
-    "nuxt": "3.0.0-rc.11"
+    "nuxt": "3.0.0"
   }
 }

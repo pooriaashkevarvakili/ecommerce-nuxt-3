@@ -42,22 +42,23 @@
         </div>
         <div class="flex mt-2 justify-center">
             <input type="text" placeholder="نام"
-                class="input border outline-none focus:outline-none border-gray-300 w-96 iran-sans" />
+                class="input xs:w-80 border outline-none focus:outline-none 5xl:w-80 border-gray-300 w-96 iran-sans" />
         </div>
         <div class="flex mt-2 justify-center">
             <input placeholder="ایمیل" type="text"
-                class="input w-96 border outline-none iran-sans focus:outline-none border-gray-300" />
+                class="input w-96 border outline-none xs:w-80 5xl:w-80 iran-sans focus:outline-none border-gray-300" />
         </div>
         <div class="flex mt-2 justify-center">
             <input type="text" placeholder="وب سایت"
-                class="input w-96 border iran-sans outline-none focus:outline-none border-gray-300" />
+                class="input w-96 border 5xl:w-80 xs:w-80 iran-sans outline-none focus:outline-none border-gray-300" />
         </div>
         <div class="flex mt-2 justify-center">
-            <textarea class="textarea w-96 border outline-none focus:outline-none border-gray-300"
+            <textarea class="textarea 5xl:w-80 xs:w-80 w-96 border outline-none focus:outline-none border-gray-300"
                 placeholder="پیام"></textarea>
         </div>
         <div class="mt-4">
-            <button class="btn w-96 iran-sans bg-red-400 text-white border-red-400 rounded-full">پیام بفرستید</button>
+            <button class="btn w-96 5xl:w-80 xs:w-80 iran-sans bg-red-400 text-white border-red-400 rounded-full">پیام
+                بفرستید</button>
         </div>
     </div>
 </template>

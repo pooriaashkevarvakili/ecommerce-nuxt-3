@@ -1,6 +1,6 @@
 import { ComputedRef, Ref } from 'vue'
-export type LayoutKey = "footer" | "default"
-declare module "D:/project-nuxt3/node_modules/nuxt/dist/pages/runtime/composables" {
+export type LayoutKey = "footer" | "default" | "login"
+declare module "D:/ecommerce-nuxt-3/node_modules/nuxt/dist/pages/runtime/composables" {
   interface PageMeta {
     layout?: false | LayoutKey | Ref<LayoutKey> | ComputedRef<LayoutKey>
   }

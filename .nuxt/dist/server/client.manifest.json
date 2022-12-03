@@ -6,10 +6,10 @@
     "module": true,
     "resourceType": "script"
   },
-  "D:/project-nuxt3/node_modules/nuxt/dist/app/entry.mjs": {
+  "D:/ecommerce-nuxt-3/node_modules/nuxt/dist/app/entry.mjs": {
     "resourceType": "script",
     "module": true,
     "isEntry": true,
-    "file": "D:/project-nuxt3/node_modules/nuxt/dist/app/entry.mjs"
+    "file": "D:/ecommerce-nuxt-3/node_modules/nuxt/dist/app/entry.mjs"
   }
 }

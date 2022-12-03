@@ -1,29 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./components/**/*.{js,vue,ts}",
-    "./layouts/**/*.vue",
-    "./pages/**/*.vue",
-    "./plugins/**/*.{js,ts}",
-    "./nuxt.config.{js,ts}",
-  ],
-  screens: {
-    sm: '480px'
-  },
+  content: [],
   theme: {
-    extend: {
-      spacing: {
-        '56px': '3.5rem',
-      },
-
-      backgroundImage: {
-        'assetbistoyek': "url('asset21.jpeg')",
-        'categoryTwo': "url('category-2.jpg.webp')",
-        'categoryThree': "url('category-3.jpg.webp')",
-        'categoryFour': "url('category-4.jpg.webp')",
-        'categorySix': "url('category8.jpg')"
-      }
-    },
+    extend: {},
+    screens: {
+      'xs': '360px',
+      '5xl': '412px',
+      '4xl': '540px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px'
+    }
   },
-  plugins: [require("daisyui")],
+  plugins: [require('daisyui')],
 }
