@@ -729,7 +729,7 @@ const renderer$1 = /*#__PURE__*/Object.freeze({
   'default': renderer
 });
 
-const _virtual__headStatic = {"headTags":"<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">","bodyTags":"","bodyTagsOpen":"","htmlAttrs":"","bodyAttrs":""};
+const _virtual__headStatic = {"headTags":"<meta charset=\"utf-16\">\n<title>ashion</title>\n<meta name=\"viewport\" content=\"width=500, initial-scale=1\">\n<meta name=\"description\" content=\"My amazing site.\">","bodyTags":"","bodyTagsOpen":"","htmlAttrs":"","bodyAttrs":""};
 
 const _virtual__headStatic$1 = /*#__PURE__*/Object.freeze({
   __proto__: null,

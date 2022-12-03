@@ -6,7 +6,9 @@
 
 <script setup>
 import EcommerceTable from "./ecommerceTable.vue";
-
+useHead({
+    title: 'ecommerce'
+})
 </script>
 
 <style>

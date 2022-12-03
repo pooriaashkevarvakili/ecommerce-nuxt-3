@@ -11,8 +11,10 @@
 
 </template>
 
-<script>
-
+<script setup>
+useHead({
+    title: 'blog'
+})
 
 </script>
 

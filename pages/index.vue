@@ -42,6 +42,9 @@ import Children from "./Tab/Children.vue"
 import Kid from "./Tab/Kid.vue"
 import Accessories from "./Tab/Accessories.vue"
 import Product from "./Product.vue"
+useHead({
+    title: "home"
+})
 </script>
 
 <style>

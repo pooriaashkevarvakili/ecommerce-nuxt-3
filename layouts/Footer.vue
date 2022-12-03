@@ -22,7 +22,7 @@
                 <nuxt-link to="/ecommerce" class="iran-sans"> فروشگاه</nuxt-link>
                 <nuxt-link to="/blog" class="iran-sans">بلاگ </nuxt-link>
                 <nuxt-link to="/contact" class="iran-sans">تماس با ما</nuxt-link>
-                <nuxt-link to="/login" class="iran-sans"> ثبت نام</nuxt-link>
+
             </div>
             <div>
 
