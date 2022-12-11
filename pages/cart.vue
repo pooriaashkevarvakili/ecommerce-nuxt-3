@@ -10,9 +10,10 @@
             <span class="text-2xl"> cart Empty </span>
             <nuxt-link class="bg-black px-10 py-3 rounded-xl mt-5 text-white" to="/">خانه</nuxt-link>
         </div>
-        <div v-else class="grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 gird-cols-1 gap-6 mt-4">
+        <div v-else
+            class="grid pr-96 pl-10 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 gird-cols-1 gap-2 2xl:space-y-0 xl:space-y-0 lg:space-y-0 space-y-4 2xl:ml-0 xl:ml-0 lg:ml-0 md:ml-24 sm:ml-14 4xl:ml-2 5xl:ml-2 mt-4">
             <div v-for="item in product" :key="item.id" class="card w-96 bg-base-100 shadow-xl">
-                <figure><img :src="item.img" alt="Shoes" /></figure>
+                <figure><img class="w-72 h-36 mt-4 rounded-xl" :src="item.img" :alt="item.name" /></figure>
                 <div class="card-body">
                     <h2 class="card-title">{{ item.name }}</h2>
                     <div class="flex justify-between">

@@ -22,28 +22,38 @@
                     </div>
                     <div class="card-title flex items-center justify-center">ثبت نام</div>
                     <div class="card-title">
-                        <input style="direction: rtl" class="input border mt-3 w-full border-gray-300"
-                            placeholder="ایمیل" />
+                        <input v-model="username" style="direction: rtl"
+                            class="input border mt-3 w-full border-gray-300" placeholder="ایمیل" />
                     </div>
                     <div class="card-title">
-                        <input style="direction: rtl" class="input w-full border border-gray-300 mt-3"
-                            placeholder="پسورد" type="password" />
+                        <input v-model="password" style="direction: rtl"
+                            class="input w-full border border-gray-300 mt-3" placeholder="پسورد" type="password" />
                     </div>
                     <div class="card-actions">
-                        <nuxt-link to="/" class="btn mt-5 w-full btn-primary">ثبت نام</nuxt-link>
+                        <button @click="login" class="btn mt-5 w-full btn-primary">ثبت نام</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </template>
-  
+
 <script setup>
+import { ref } from "vue"
+import { useRouter } from "vue-router"
 useHead({
     title: "login",
 });
+const router = useRouter()
+const username = ref('')
+const password = ref('')
+function login() {
+    if (username.value == 'pooriavakili09@gmail.com' && password.value == '13711373n')
+        router.push('/')
+
+}
 </script>
-  
+
 <style>
 
 </style>
