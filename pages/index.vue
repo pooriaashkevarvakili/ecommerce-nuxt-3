@@ -3,29 +3,29 @@
         <div class="flex justify-between   2xl:px-32 xl:px-32 lg:px-10 px-8   mt-10">
             <div>
                 <Tabwrapper class="cursor-pointer">
-                    <Tab class="iran-sans" title="همه">
+                    <Tab title="همه">
                         <div class="flex flex-wrap">
                             <All />
                         </div>
                     </Tab>
-                    <Tab class="iran-sans" title="زن">
+                    <Tab title="زن">
                         <Women />
                     </Tab>
-                    <Tab class="iran-sans" title="مرد">
+                    <Tab title="مرد">
                         <Woman />
                     </Tab>
-                    <Tab class="iran-sans" title="بچه">
+                    <Tab title="بچه">
                         <Children />
                     </Tab>
-                    <Tab class="iran-sans" title="تجهیزات">
+                    <Tab title="تجهیزات">
                         <Kid />
                     </Tab>
-                    <Tab class="iran-sans" title="آرایشی">
+                    <Tab title="آرایشی">
                         <Accessories />
                     </Tab>
                 </Tabwrapper>
             </div>
-            <div class="hidden iran-sans  2xl:block xl:block lg:block md:hidden">
+            <div class="hidden   2xl:block xl:block lg:block md:hidden">
                 محصولات
             </div>
         </div>

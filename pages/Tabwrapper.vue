@@ -1,8 +1,8 @@
 <template>
     <div class="">
         <ul class="flex flex-row space-x-5">
-            <li class="iran-sans" v-for="title in tabTitles" :key="title" @click="selectedTitle=title">
-                {{title}}
+            <li v-for="title in tabTitles" :key="title" @click="selectedTitle = title">
+                {{ title }}
             </li>
         </ul>
         <slot />

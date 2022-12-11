@@ -9,7 +9,7 @@
       items-center
       justify-center
     ">
-    <img class="2xl:mr-2 xl:mr-2 lg:mr-2 md:mr-10" src="error.png" alt="" />
+    <img class="2xl:mr-2 xl:mr-2 lg:mr-2 md:mr-10" src="@/assets/img/error.png" alt="" />
     <div class="2xl:ml-10 xl:ml-10 lg:ml-10 md:ml-0 ml-0">
       {{ error.message }}
     </div>
