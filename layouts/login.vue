@@ -48,7 +48,7 @@ const router = useRouter()
 const username = ref('')
 const password = ref('')
 function login() {
-    if (username.value == 'pooriavakili09@gmail.com' && password.value == '13711373n')
+    if (username.value == 'pooriavakili09@gmail.com' && password.value == 'pooria')
         router.push('/')
 
 }

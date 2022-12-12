@@ -11,7 +11,7 @@
             <nuxt-link class="bg-black px-10 py-3 rounded-xl mt-5 text-white" to="/">خانه</nuxt-link>
         </div>
         <div v-else
-            class="grid pr-96 pl-10 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 gird-cols-1 gap-2 2xl:space-y-0 xl:space-y-0 lg:space-y-0 space-y-4 2xl:ml-0 xl:ml-0 lg:ml-0 md:ml-24 sm:ml-14 4xl:ml-2 5xl:ml-2 mt-4">
+            class="grid gap-3 2xl:grid-cols-3 xl:grid-cols-2 lg:grid-cols-1 gird-cols-1  2xl:space-y-0 xl:space-y-0 lg:space-y-0 space-y-4 2xl:ml-0 xl:ml-0 lg:ml-0 md:ml-24 sm:ml-14 4xl:ml-2 5xl:ml-2 mt-4">
             <div v-for="item in product" :key="item.id" class="card w-96 bg-base-100 shadow-xl">
                 <figure><img class="w-72 h-36 mt-4 rounded-xl" :src="item.img" :alt="item.name" /></figure>
                 <div class="card-body">
